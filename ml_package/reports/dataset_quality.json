@@ -1,0 +1,707 @@
+{
+  "synthetic_data_notice": "All rows are generated examples, not real animal records.",
+  "rows": 12600,
+  "feature_count": 32,
+  "target_classes": [
+    "FMD",
+    "Lumpy Skin Disease",
+    "Hemorrhagic Septicemia",
+    "Mastitis",
+    "Black Quarter / Blackleg",
+    "Anthrax",
+    "Healthy"
+  ],
+  "class_counts": {
+    "FMD": 1800,
+    "Lumpy Skin Disease": 1800,
+    "Hemorrhagic Septicemia": 1800,
+    "Mastitis": 1800,
+    "Black Quarter / Blackleg": 1800,
+    "Anthrax": 1800,
+    "Healthy": 1800
+  },
+  "exact_schema_match": true,
+  "unexpected_or_forbidden_columns": [],
+  "missing_cells": 0,
+  "exact_duplicate_rows": 0,
+  "duplicate_input_rows": 0,
+  "invalid_binary_cells": 0,
+  "near_duplicate_screen": {
+    "method": "5,000 random row-pairs; same target and categories, at most one binary mismatch, and tight numeric tolerances",
+    "pairs_screened": 5000,
+    "near_duplicate_pairs_found": 0
+  },
+  "mastitis_female_fraction": 0.9966666666666667,
+  "symptom_prevalence_by_disease": {
+    "FMD": {
+      "Fever_High_Body_Temperature": 0.7494,
+      "Cough": 0.0656,
+      "Nasal_Discharge": 0.2011,
+      "Difficulty_Breathing": 0.0633,
+      "Reduced_Appetite": 0.6183,
+      "Weakness_Lethargy": 0.4278,
+      "Diarrhea": 0.0572,
+      "Dehydration": 0.1894,
+      "Excessive_Salivation": 0.6439,
+      "Mouth_Lesions_Sores": 0.6683,
+      "Lameness_Difficulty_Walking": 0.5622,
+      "Swelling": 0.0461,
+      "Skin_Lesions_Rash": 0.0522,
+      "Eye_Discharge_Redness": 0.11,
+      "Abortion_Reproductive_Problem": 0.0356,
+      "Abnormal_Milk_Production": 0.1939,
+      "Weight_Loss": 0.3283,
+      "Reduced_Rumination": 0.3928
+    },
+    "Lumpy Skin Disease": {
+      "Fever_High_Body_Temperature": 0.6428,
+      "Cough": 0.1322,
+      "Nasal_Discharge": 0.5817,
+      "Difficulty_Breathing": 0.1533,
+      "Reduced_Appetite": 0.5761,
+      "Weakness_Lethargy": 0.58,
+      "Diarrhea": 0.1056,
+      "Dehydration": 0.2122,
+      "Excessive_Salivation": 0.2794,
+      "Mouth_Lesions_Sores": 0.1628,
+      "Lameness_Difficulty_Walking": 0.325,
+      "Swelling": 0.3583,
+      "Skin_Lesions_Rash": 0.82,
+      "Eye_Discharge_Redness": 0.6644,
+      "Abortion_Reproductive_Problem": 0.1083,
+      "Abnormal_Milk_Production": 0.2911,
+      "Weight_Loss": 0.4078,
+      "Reduced_Rumination": 0.4417
+    },
+    "Hemorrhagic Septicemia": {
+      "Fever_High_Body_Temperature": 0.84,
+      "Cough": 0.2217,
+      "Nasal_Discharge": 0.6639,
+      "Difficulty_Breathing": 0.7172,
+      "Reduced_Appetite": 0.635,
+      "Weakness_Lethargy": 0.7039,
+      "Diarrhea": 0.1256,
+      "Dehydration": 0.3378,
+      "Excessive_Salivation": 0.6967,
+      "Mouth_Lesions_Sores": 0.1528,
+      "Lameness_Difficulty_Walking": 0.1394,
+      "Swelling": 0.7756,
+      "Skin_Lesions_Rash": 0.1317,
+      "Eye_Discharge_Redness": 0.5939,
+      "Abortion_Reproductive_Problem": 0.0583,
+      "Abnormal_Milk_Production": 0.1589,
+      "Weight_Loss": 0.555,
+      "Reduced_Rumination": 0.5206
+    },
+    "Mastitis": {
+      "Fever_High_Body_Temperature": 0.3789,
+      "Cough": 0.0406,
+      "Nasal_Discharge": 0.0817,
+      "Difficulty_Breathing": 0.055,
+      "Reduced_Appetite": 0.4983,
+      "Weakness_Lethargy": 0.3811,
+      "Diarrhea": 0.0383,
+      "Dehydration": 0.1206,
+      "Excessive_Salivation": 0.0439,
+      "Mouth_Lesions_Sores": 0.0483,
+      "Lameness_Difficulty_Walking": 0.52,
+      "Swelling": 0.8456,
+      "Skin_Lesions_Rash": 0.0328,
+      "Eye_Discharge_Redness": 0.0756,
+      "Abortion_Reproductive_Problem": 0.0894,
+      "Abnormal_Milk_Production": 0.895,
+      "Weight_Loss": 0.3967,
+      "Reduced_Rumination": 0.4061
+    },
+    "Black Quarter / Blackleg": {
+      "Fever_High_Body_Temperature": 0.575,
+      "Cough": 0.0528,
+      "Nasal_Discharge": 0.0811,
+      "Difficulty_Breathing": 0.105,
+      "Reduced_Appetite": 0.5217,
+      "Weakness_Lethargy": 0.6072,
+      "Diarrhea": 0.0467,
+      "Dehydration": 0.1833,
+      "Excessive_Salivation": 0.0517,
+      "Mouth_Lesions_Sores": 0.0478,
+      "Lameness_Difficulty_Walking": 0.6194,
+      "Swelling": 0.6917,
+      "Skin_Lesions_Rash": 0.0483,
+      "Eye_Discharge_Redness": 0.0606,
+      "Abortion_Reproductive_Problem": 0.0261,
+      "Abnormal_Milk_Production": 0.0828,
+      "Weight_Loss": 0.1656,
+      "Reduced_Rumination": 0.2994
+    },
+    "Anthrax": {
+      "Fever_High_Body_Temperature": 0.6522,
+      "Cough": 0.0817,
+      "Nasal_Discharge": 0.1483,
+      "Difficulty_Breathing": 0.6117,
+      "Reduced_Appetite": 0.5883,
+      "Weakness_Lethargy": 0.6656,
+      "Diarrhea": 0.1961,
+      "Dehydration": 0.5039,
+      "Excessive_Salivation": 0.0961,
+      "Mouth_Lesions_Sores": 0.0694,
+      "Lameness_Difficulty_Walking": 0.2044,
+      "Swelling": 0.4394,
+      "Skin_Lesions_Rash": 0.0489,
+      "Eye_Discharge_Redness": 0.0978,
+      "Abortion_Reproductive_Problem": 0.1272,
+      "Abnormal_Milk_Production": 0.0967,
+      "Weight_Loss": 0.3461,
+      "Reduced_Rumination": 0.3283
+    },
+    "Healthy": {
+      "Fever_High_Body_Temperature": 0.0206,
+      "Cough": 0.0361,
+      "Nasal_Discharge": 0.0306,
+      "Difficulty_Breathing": 0.0072,
+      "Reduced_Appetite": 0.0633,
+      "Weakness_Lethargy": 0.0567,
+      "Diarrhea": 0.0228,
+      "Dehydration": 0.02,
+      "Excessive_Salivation": 0.0128,
+      "Mouth_Lesions_Sores": 0.0206,
+      "Lameness_Difficulty_Walking": 0.05,
+      "Swelling": 0.055,
+      "Skin_Lesions_Rash": 0.035,
+      "Eye_Discharge_Redness": 0.0278,
+      "Abortion_Reproductive_Problem": 0.0061,
+      "Abnormal_Milk_Production": 0.01,
+      "Weight_Loss": 0.06,
+      "Reduced_Rumination": 0.0706
+    }
+  },
+  "vaccination_prevalence_by_disease": {
+    "FMD": {
+      "Vaccinated_FMD": 0.2133,
+      "Vaccinated_HS": 0.365,
+      "Vaccinated_LSD": 0.3511,
+      "Vaccinated_BQ": 0.3472
+    },
+    "Lumpy Skin Disease": {
+      "Vaccinated_FMD": 0.3511,
+      "Vaccinated_HS": 0.3761,
+      "Vaccinated_LSD": 0.2244,
+      "Vaccinated_BQ": 0.3361
+    },
+    "Hemorrhagic Septicemia": {
+      "Vaccinated_FMD": 0.3667,
+      "Vaccinated_HS": 0.2411,
+      "Vaccinated_LSD": 0.3556,
+      "Vaccinated_BQ": 0.3756
+    },
+    "Mastitis": {
+      "Vaccinated_FMD": 0.3583,
+      "Vaccinated_HS": 0.3611,
+      "Vaccinated_LSD": 0.36,
+      "Vaccinated_BQ": 0.3594
+    },
+    "Black Quarter / Blackleg": {
+      "Vaccinated_FMD": 0.36,
+      "Vaccinated_HS": 0.3661,
+      "Vaccinated_LSD": 0.3606,
+      "Vaccinated_BQ": 0.2406
+    },
+    "Anthrax": {
+      "Vaccinated_FMD": 0.3444,
+      "Vaccinated_HS": 0.3544,
+      "Vaccinated_LSD": 0.3761,
+      "Vaccinated_BQ": 0.3683
+    },
+    "Healthy": {
+      "Vaccinated_FMD": 0.435,
+      "Vaccinated_HS": 0.4183,
+      "Vaccinated_LSD": 0.4528,
+      "Vaccinated_BQ": 0.4228
+    }
+  },
+  "species_by_disease": {
+    "FMD": {
+      "Buffalo": 0.2611,
+      "Cow": 0.7389
+    },
+    "Lumpy Skin Disease": {
+      "Buffalo": 0.3267,
+      "Cow": 0.6733
+    },
+    "Hemorrhagic Septicemia": {
+      "Buffalo": 0.44,
+      "Cow": 0.56
+    },
+    "Mastitis": {
+      "Buffalo": 0.2822,
+      "Cow": 0.7178
+    },
+    "Black Quarter / Blackleg": {
+      "Buffalo": 0.28,
+      "Cow": 0.72
+    },
+    "Anthrax": {
+      "Buffalo": 0.2606,
+      "Cow": 0.7394
+    },
+    "Healthy": {
+      "Buffalo": 0.2772,
+      "Cow": 0.7228
+    }
+  },
+  "sex_by_disease": {
+    "FMD": {
+      "Female": 0.7628,
+      "Male": 0.2372
+    },
+    "Lumpy Skin Disease": {
+      "Female": 0.7772,
+      "Male": 0.2228
+    },
+    "Hemorrhagic Septicemia": {
+      "Female": 0.7911,
+      "Male": 0.2089
+    },
+    "Mastitis": {
+      "Female": 0.9967,
+      "Male": 0.0033
+    },
+    "Black Quarter / Blackleg": {
+      "Female": 0.7767,
+      "Male": 0.2233
+    },
+    "Anthrax": {
+      "Female": 0.7689,
+      "Male": 0.2311
+    },
+    "Healthy": {
+      "Female": 0.7711,
+      "Male": 0.2289
+    }
+  },
+  "season_distribution": {
+    "Monsoon": 0.3915,
+    "Summer": 0.3207,
+    "Winter": 0.2878
+  },
+  "numeric_describe": {
+    "Age_Months": {
+      "count": 12600.0,
+      "mean": 51.765,
+      "std": 37.564,
+      "min": 3.0,
+      "25%": 26.0,
+      "50%": 42.0,
+      "75%": 67.0,
+      "max": 240.0
+    },
+    "Herd_Size": {
+      "count": 12600.0,
+      "mean": 9.744,
+      "std": 5.321,
+      "min": 2.0,
+      "25%": 6.0,
+      "50%": 9.0,
+      "75%": 13.0,
+      "max": 42.0
+    },
+    "Days_Since_Last_Vaccination": {
+      "count": 12600.0,
+      "mean": 327.349,
+      "std": 275.425,
+      "min": 12.0,
+      "25%": 123.0,
+      "50%": 228.0,
+      "75%": 442.0,
+      "max": 1100.0
+    },
+    "Vaccinated_FMD": {
+      "count": 12600.0,
+      "mean": 0.347,
+      "std": 0.476,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Vaccinated_HS": {
+      "count": 12600.0,
+      "mean": 0.355,
+      "std": 0.478,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Vaccinated_LSD": {
+      "count": 12600.0,
+      "mean": 0.354,
+      "std": 0.478,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Vaccinated_BQ": {
+      "count": 12600.0,
+      "mean": 0.35,
+      "std": 0.477,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Fever_High_Body_Temperature": {
+      "count": 12600.0,
+      "mean": 0.551,
+      "std": 0.497,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Cough": {
+      "count": 12600.0,
+      "mean": 0.09,
+      "std": 0.286,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Nasal_Discharge": {
+      "count": 12600.0,
+      "mean": 0.255,
+      "std": 0.436,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Difficulty_Breathing": {
+      "count": 12600.0,
+      "mean": 0.245,
+      "std": 0.43,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Reduced_Appetite": {
+      "count": 12600.0,
+      "mean": 0.5,
+      "std": 0.5,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Weakness_Lethargy": {
+      "count": 12600.0,
+      "mean": 0.489,
+      "std": 0.5,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Diarrhea": {
+      "count": 12600.0,
+      "mean": 0.085,
+      "std": 0.278,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Dehydration": {
+      "count": 12600.0,
+      "mean": 0.224,
+      "std": 0.417,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Excessive_Salivation": {
+      "count": 12600.0,
+      "mean": 0.261,
+      "std": 0.439,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Mouth_Lesions_Sores": {
+      "count": 12600.0,
+      "mean": 0.167,
+      "std": 0.373,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Lameness_Difficulty_Walking": {
+      "count": 12600.0,
+      "mean": 0.346,
+      "std": 0.476,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Swelling": {
+      "count": 12600.0,
+      "mean": 0.459,
+      "std": 0.498,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Skin_Lesions_Rash": {
+      "count": 12600.0,
+      "mean": 0.167,
+      "std": 0.373,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Eye_Discharge_Redness": {
+      "count": 12600.0,
+      "mean": 0.233,
+      "std": 0.423,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Abortion_Reproductive_Problem": {
+      "count": 12600.0,
+      "mean": 0.064,
+      "std": 0.246,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Abnormal_Milk_Production": {
+      "count": 12600.0,
+      "mean": 0.247,
+      "std": 0.431,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Weight_Loss": {
+      "count": 12600.0,
+      "mean": 0.323,
+      "std": 0.468,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Reduced_Rumination": {
+      "count": 12600.0,
+      "mean": 0.351,
+      "std": 0.477,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Ticks_External_Parasites": {
+      "count": 12600.0,
+      "mean": 0.294,
+      "std": 0.456,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Temperature_C": {
+      "count": 12600.0,
+      "mean": 28.034,
+      "std": 6.074,
+      "min": 8.0,
+      "25%": 24.0,
+      "50%": 28.7,
+      "75%": 32.2,
+      "max": 46.0
+    },
+    "Humidity_Percent": {
+      "count": 12600.0,
+      "mean": 62.286,
+      "std": 20.249,
+      "min": 15.0,
+      "25%": 47.3,
+      "50%": 64.6,
+      "75%": 78.3,
+      "max": 99.0
+    },
+    "Rainfall_mm": {
+      "count": 12600.0,
+      "mean": 18.751,
+      "std": 25.31,
+      "min": 0.0,
+      "25%": 2.3,
+      "50%": 6.8,
+      "75%": 26.9,
+      "max": 226.4
+    }
+  },
+  "largest_feature_target_correlations": [
+    {
+      "feature": "Skin_Lesions_Rash",
+      "encoded_level": null,
+      "disease": "Lumpy Skin Disease",
+      "correlation": 0.7147989058814614,
+      "absolute_correlation": 0.7147989058814614
+    },
+    {
+      "feature": "Abnormal_Milk_Production",
+      "encoded_level": null,
+      "disease": "Mastitis",
+      "correlation": 0.6135832868428697,
+      "absolute_correlation": 0.6135832868428697
+    },
+    {
+      "feature": "Mouth_Lesions_Sores",
+      "encoded_level": null,
+      "disease": "FMD",
+      "correlation": 0.5484007200465234,
+      "absolute_correlation": 0.5484007200465234
+    },
+    {
+      "feature": "Difficulty_Breathing",
+      "encoded_level": null,
+      "disease": "Hemorrhagic Septicemia",
+      "correlation": 0.44874167852989655,
+      "absolute_correlation": 0.44874167852989655
+    },
+    {
+      "feature": "Fever_High_Body_Temperature",
+      "encoded_level": null,
+      "disease": "Healthy",
+      "correlation": -0.4356226036894526,
+      "absolute_correlation": 0.4356226036894526
+    },
+    {
+      "feature": "Eye_Discharge_Redness",
+      "encoded_level": null,
+      "disease": "Lumpy Skin Disease",
+      "correlation": 0.4168791051286814,
+      "absolute_correlation": 0.4168791051286814
+    },
+    {
+      "feature": "Excessive_Salivation",
+      "encoded_level": null,
+      "disease": "Hemorrhagic Septicemia",
+      "correlation": 0.40550546888545186,
+      "absolute_correlation": 0.40550546888545186
+    },
+    {
+      "feature": "Nasal_Discharge",
+      "encoded_level": null,
+      "disease": "Hemorrhagic Septicemia",
+      "correlation": 0.382304227418422,
+      "absolute_correlation": 0.382304227418422
+    },
+    {
+      "feature": "Reduced_Appetite",
+      "encoded_level": null,
+      "disease": "Healthy",
+      "correlation": -0.35666646094294563,
+      "absolute_correlation": 0.35666646094294563
+    },
+    {
+      "feature": "Excessive_Salivation",
+      "encoded_level": null,
+      "disease": "FMD",
+      "correlation": 0.35642262636473415,
+      "absolute_correlation": 0.35642262636473415
+    },
+    {
+      "feature": "Weakness_Lethargy",
+      "encoded_level": null,
+      "disease": "Healthy",
+      "correlation": -0.3529951367015053,
+      "absolute_correlation": 0.3529951367015053
+    },
+    {
+      "feature": "Eye_Discharge_Redness",
+      "encoded_level": null,
+      "disease": "Hemorrhagic Septicemia",
+      "correlation": 0.34872803406222364,
+      "absolute_correlation": 0.34872803406222364
+    },
+    {
+      "feature": "Difficulty_Breathing",
+      "encoded_level": null,
+      "disease": "Anthrax",
+      "correlation": 0.3485021030437084,
+      "absolute_correlation": 0.3485021030437084
+    },
+    {
+      "feature": "Swelling",
+      "encoded_level": null,
+      "disease": "FMD",
+      "correlation": -0.3381161292498698,
+      "absolute_correlation": 0.3381161292498698
+    },
+    {
+      "feature": "Swelling",
+      "encoded_level": null,
+      "disease": "Healthy",
+      "correlation": -0.3308336280044878,
+      "absolute_correlation": 0.3308336280044878
+    }
+  ],
+  "high_correlation_flags_abs_over_0_6": [
+    {
+      "feature": "Skin_Lesions_Rash",
+      "encoded_level": null,
+      "disease": "Lumpy Skin Disease",
+      "correlation": 0.7147989058814614,
+      "absolute_correlation": 0.7147989058814614
+    },
+    {
+      "feature": "Abnormal_Milk_Production",
+      "encoded_level": null,
+      "disease": "Mastitis",
+      "correlation": 0.6135832868428697,
+      "absolute_correlation": 0.6135832868428697
+    }
+  ],
+  "split_sizes": {
+    "train": 8820,
+    "validation": 1890,
+    "test": 1890
+  },
+  "split_exact_input_overlap": 0
+}
